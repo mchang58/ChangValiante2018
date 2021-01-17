@@ -1,16 +1,15 @@
-# Epileptiform-Event-Detector(detectionAlgorithm.m)
+# Electrographic Seizure Detection Algorithm (detectionAlgorithm.m)
 
-This repository contains documentation and code for the seizure detection algorithm mentioned in Chang et al., 2018, JoVE. (https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human)
+This repository contains documentation and code for the seizure detection algorithm mentioned in Chang et al., 2019, JoVE. (https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human)
 
 Requirements:
 - Windows PC
 - MatLab R2015a (or later)
+- Wavelet Toolbox
 - Microsoft Office
 - 8 GB of RAM
 
 Video Tutorial: https://www.dropbox.com/s/wpta1wt5facegp4/Detection%20Algorithm%20%28Demo%29%20Nov%2022%2C%202018.mov?dl=0
-
-Full Documentation: https://www.dropbox.com/s/jg7oej2g3hlc43t/Documentation%20%28Detection%20Algorithm%20V9%29.pdf?dl=0
 
 Quick start (For demonstration):
 1) Set MatLab's working directory to ChangValiante2018.
@@ -35,16 +34,16 @@ The script outputs an excel sheet of the detected events and their associated fe
 
 
 ---
-Authors: Michael Chang (michael.chang@live.ca), Christopher Lucasius, Liam Long and Taufik A. Valiante.
+Authors: Michael Chang (michael.chang@uhnresearch.ca), Christopher Lucasius, Liam Long and Taufik A. Valiante.
 
 Acknowledgements for coding strategies: Fu-der (Fred) Chen, Thomas Lordello, Vitaly Topekha, and Kramay Patel.  
 Acknowledgements for labelling the seizure data: Shadini, Alina, Barret)  
-Copyright 2018, Valiante Lab
+Copyright (2018) Valiante Lab
 
-Epileptiform Event Detection Code mentioned in Chang et al., 2018b. JoVE
+Epileptiform Event Detection Code mentioned in Chang et al., 2019. JoVE
 Link: https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human
 
-Based on the epileptiform event marking rules used in Chang et al., 2018a. Neurobiology of Disease.
+Based on the epileptiform event marking rules used in Chang et al., 2018. Neurobiology of Disease.
 Link: https://www.sciencedirect.com/science/article/pii/S0969996117302255
 
 Thank you for choosing to use the Valiante Lab's Epileptiform Event Detector.
