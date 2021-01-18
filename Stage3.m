@@ -1,7 +1,7 @@
 %% Stage 3: Analyze the file
 % Author: Michael Chang
 % Run this file after Stage 2 to analyze the results and do
-% additional analysis to the detected events. This creats the time vector,
+% additional analysis to the detected events. This creates the time vector,
 % LFP time series, LED if there is light, and filters the data using a
 % bandpass filter (1-50 Hz) and a low pass filter (@68 Hz)
 
