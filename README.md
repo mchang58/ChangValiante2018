@@ -1,6 +1,6 @@
 # Electrographic Seizure Detection Program (detectionAlgorithm.m)
 
-This repository contains documentation and code for the seizure detection algorithm mentioned in [Chang et al., 2019, JoVE](https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human).
+This repository contains documentation and code for the seizure detection algorithm in [Chang et al., 2019, JoVE](https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human).
 
 Requirements:
 - Windows PC
