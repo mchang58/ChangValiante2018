@@ -48,4 +48,4 @@ Epileptiform Event Detection Code mentioned in [Chang et al., 2019. JoVE](https:
 
 Based on the epileptiform event marking rules used in [Chang et al., 2018. Neurobiology of Disease](https://www.sciencedirect.com/science/article/pii/S0969996117302255).
 
-Thank you for choosing to use the Valiante Lab's Epileptiform Event Detector.
+GPL-3.0 &copy; Michael Chang
