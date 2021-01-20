@@ -2,6 +2,12 @@
 
 This repository contains documentation and code for the seizure detection algorithm in [Chang et al., 2019, JoVE](https://www.jove.com/video/57952/generation-on-demand-initiation-acute-ictal-activity-rodent-human).
 
+Features:
+- Mimic how human experts detect the onset and offset of epileptiform events from single channel LFP recordings
+- The ictal events detected and classified by the algorithm were >90% in agreement with human experts
+- The electrographic seizure onset times detected by the algorithm were within 1s of the annotations by human experts.
+- The algorithm is fast, requires no training, and user-friendly for life science researchers [(Video Tutorial)](https://www.dropbox.com/s/wpta1wt5facegp4/Detection%20Algorithm%20%28Demo%29%20Nov%2022%2C%202018.mov?dl=0)
+
 Requirements:
 - Windows PC
 - MatLab R2015a (or later)
@@ -15,8 +21,6 @@ Quick start (For demonstration):
 3) Run the script
 4) Specify Detection Parameters, or click "OK" and use default settings
 5) Select .abf you want to analyze, or select 13226009(exampleFile).abf provided
-
-[Video Tutorial (Full Demonstration)](https://www.dropbox.com/s/wpta1wt5facegp4/Detection%20Algorithm%20%28Demo%29%20Nov%2022%2C%202018.mov?dl=0)
 
 ## Full Description:
 High speed detection of ictal events (SLEs), according to the rules and specifications of  Chang et al., 2018. The detection algorithm works by detecting all the spikes in the time series provided (.abf file) and groups spikes that are within 10 sec of each other as one event. These events are then classified based on their spiking characteristics (duration, rate, intensity, and amplitude) using unsupervised machine learning (modified k-means clustering algorithm). Events can be classified as ictal event (SLE), questionable ictal event (requires human intuition),  interictal event (IIE), interictal spike (IIS), or an artifact.
